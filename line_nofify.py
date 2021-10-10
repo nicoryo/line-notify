@@ -1,7 +1,7 @@
 import requests
-import setting
+import line_notify.setting
 
-Line_API = setting.Line_API
+line_api = setting.line_api
 
 def main(comment=[]):
     send_line_notify(comment)
