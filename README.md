@@ -17,10 +17,10 @@ line_key = ""
 - Insert below code in your file
 ```
 # import
-import line_notify.line_notify as line
+from line_notify import line_notify
 
 # notify
 # input argment in ()
-line.main()
+line_notify.main()
 
 ```
